@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade-calculatter App</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Total - <span class="tot" id="tot"></span></h2>
+                <h2>Remark - <span id="remarks"></span></h2>
+                <h2>Percentage - <span class="per" id="per"></span></h2>
+                <h2>Grade - <span class="gra" id="gra"></span></h2>
+
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-section">
+                <input type="number" id="c" placeholder="C Programing">
+                <input type="number" id="php" placeholder="Php">
+                <input type="number" id="js" placeholder="JavaScript">
+                <input type="number" id="ja" placeholder="Java">
+                <input type="number" id="rect" placeholder="React JS">
+                <button type="button" onclick="result()">Show Result</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
